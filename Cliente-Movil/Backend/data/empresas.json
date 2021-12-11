@@ -1,0 +1,116 @@
+[
+   {
+      "Restaurante":"McDonalds",
+      "imagen":"mcdonalds.jpg",
+      "Productos":[
+         {
+            "nombreProducto":"McNífica",
+            "precioProducto":"59.99$",
+            "descripcionProducto":"Hamburguesa mediana bañada de salsa especial"
+         },
+         {
+            "nombreProducto":"Menu Economico",
+            "precioProducto":"29.99$",
+            "descripcionProducto":"Hamburguesa, papas y refresco pequeño"
+         },
+         {
+            "nombreProducto":"Menu Familiar",
+            "precioProducto":"129.99$",
+            "descripcionProducto":"4 Hamburguesas, 4 complementos y refresco 3 litros"
+         },
+         {
+            "nombreProducto":"Cuarto de Libra",
+            "precioProducto":"89.99$",
+            "descripcionProducto":"Hamburguesa extra grande bañada de salsa especial"
+         },
+         {
+            "nombreProducto":"Menu Infantil",
+            "precioProducto":"19.99$",
+            "descripcionProducto":"Hamburguesa para los pequeños con juguete"
+         },
+         {
+            "nombreProducto":"Menu BTS",
+            "precioProducto":"0.00$",
+            "descripcionProducto":"Lo regalamos porque ya nadie lo compra"
+         }
+      ]
+   },
+   {
+      "Restaurante":"Matambritas",
+      "imagen":"matambritas.jpg",
+      "Productos":[
+         {
+            "nombreProducto":"James Bond",
+            "precioProducto":"59.99$",
+            "descripcionProducto":"Hamburguesa de pavo con papas y refresco"
+         },
+         {
+            "nombreProducto":"Hamburguesa WTF",
+            "precioProducto":"29.99$",
+            "descripcionProducto":"Hamburguesa Williams Thimothy Frontier"
+         },
+         {
+            "nombreProducto":"Alitas Barbacoa",
+            "precioProducto":"129.99$",
+            "descripcionProducto":"6 alitas bañadas de salsa barbacoa"
+         },
+         {
+            "nombreProducto":"Pio Strips",
+            "precioProducto":"89.99$",
+            "descripcionProducto":"6 trocitos de pollo con la salsa que prefieras"
+         }
+      ]
+   },
+   {
+      "Restaurante":"Furiwa",
+      "imagen":"furiwa.jpg",
+      "Productos":[
+         {
+            "nombreProducto":"Arroz chino no tan chino",
+            "precioProducto":"59.99$",
+            "descripcionProducto":"Este no lleva perro"
+         },
+         {
+            "nombreProducto":"Camarones al ají",
+            "precioProducto":"29.99$",
+            "descripcionProducto":"Camarones con ajo para la familia"
+         },
+         {
+            "nombreProducto":"Sopa Wan Tan",
+            "precioProducto":"129.99$",
+            "descripcionProducto":"Es sopa de pollo pero china"
+         },
+         {
+            "nombreProducto":"Arroz Chino Familiar",
+            "precioProducto":"89.99$",
+            "descripcionProducto":"Arroz Chino con la carne especial que ya todos conocen"
+         }
+      ]
+   },
+   {
+      "Restaurante":"Los Toneles",
+      "imagen":"toneles.jpg",
+      "Productos":[
+         {
+            "nombreProducto":"Pastelitos Tumbados",
+            "precioProducto":"2.99$",
+            "descripcionProducto":"Pastelitos baratos y ricos ya sabes"
+         },
+         {
+            "nombreProducto":"Yuca con Chicharronsito",
+            "precioProducto":"3.99$",
+            "descripcionProducto":"Mmm se me hace agua la boca de solo escribirlo"
+         },
+         {
+            "nombreProducto":"Platanito y frijolitos ricos",
+            "precioProducto":"5.99$",
+            "descripcionProducto":"Platano recien salido del palo con frijolitos de la casa"
+         },
+         {
+            "nombreProducto":"Tortillitas con quesillo",
+            "precioProducto":"1.99$",
+            "descripcionProducto":"Salsa, quesito y chismol si quiere le agrega pue"
+         }
+      ]
+   }
+]
