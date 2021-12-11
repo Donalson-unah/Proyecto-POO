@@ -1,0 +1,337 @@
+body{
+	width: 100vw;
+	height: auto;
+	margin: 0px;
+	border: 3px solid #0F4A81;
+}
+.col-6{
+	padding-right: 0px !important;
+}
+
+.barraSuperior{
+
+	background-color: #F45C5D;
+	width: 100%;
+	height: 243px;
+	left: 0px;
+	top: 0px;
+	border-radius: 0px 0px 22px 22px;
+
+}
+
+h1{
+	color: white;
+	font-family: 'Roboto';
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-weight: bold;
+	font-size: 30px;
+	left: 13px;
+	top: 52px;
+	padding-top: 10px;
+}
+
+
+.menuHamburguesa{
+	cursor: pointer;
+	margin-top: 13px;
+	width: 40px;
+	height: 38px;
+	left: 13px;
+	top: 11px;
+	background: #FFFFFF;
+	border-radius: 9px;
+	padding-top: 2px;
+
+}
+
+.lineas{
+
+	width: 27px;
+	height: 0px;
+	border: 3px solid #0F4A81;
+	border-radius: 20px;
+	margin-left: 7px;
+	margin-bottom: 3px;
+	margin-top: 5px;
+	border-width: 2px;
+
+}
+
+.menuLateral{
+	position: absolute;
+
+	display: none;
+	background-color:  #0F4A81;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	padding-top: 20px;
+	align-items: center;
+	align-content: center;
+
+
+}
+
+.menuActivo{
+	position: absolute;
+	display: flex;
+	transition: display 2s linear;  
+}
+
+
+
+.cerrarBurger{
+	cursor: pointer;
+	margin-left: 83%;
+	font-size: 31px;
+
+}
+
+
+.tituloBurger{
+
+	width: 211px;
+	height: 65px;
+	left: 82px;
+	top: 38px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 35px;
+	align-items: center;
+	color: white;
+}
+
+p {
+
+	width: 149px;
+	height: 56px;
+
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 25px;
+	line-height: 29px;
+
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-content: stretch;
+
+	color: #FFFFFF;
+
+}
+
+
+.rectanguloAzul{
+
+	width: 81px;
+	height: 134px;
+	margin-left: auto;
+
+	background: #0F4A81;
+	border-radius: 0px 0px 0px 35px;
+
+
+}
+
+.rectanguloAzul img{
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+	margin-left: 18px;
+	margin-top: 10px;
+
+}
+
+.avatar{
+
+	margin-left: 22px !important;
+
+}
+
+.eslogan{
+
+
+	width: 177px;
+	height: 40px;
+	margin-top: 16px;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 31px;
+	display: flex;
+	align-items: center;
+
+	color: rgba(0, 0, 0, 0.71);
+}
+
+.barraBusqueda{
+	min-width: 63vw !important;
+	max-width: 63vw !important;
+	display: flex;
+	height: 46px;
+	margin-left: 29px;
+	margin-top: 10px !important;
+
+	background: #0F4A81;
+	border-radius: 11px;
+
+}
+
+.fa-search{
+	font-size: 22px;
+	margin-top: 11px;
+}
+
+
+
+.textoBusqueda{
+
+	width: 100%;
+	height: 23px;
+	margin-top: 11px;
+	margin-left: 10px;
+
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	align-items: center;
+
+	background-color:  #0F4A81;
+	border: 0;
+
+}
+
+.textoBusqueda::placeholder {
+	color: white;
+}
+
+.icono{
+	cursor: pointer;
+	width: 200px;
+	margin-left: 25px;
+	filter: drop-shadow(0px 15px 4px rgba(0, 0, 0, 0.5)); 
+
+}
+
+.contadorCompras{
+	cursor: pointer;
+	margin-top: -41px;
+	margin-left: 38px;
+	font-weight: bold;
+	font-family: 'Roboto';
+}
+
+.col-6{
+	padding-left: 1rem !important;
+}
+
+.cuerpo {
+	width: 100vw;
+	height: 100vh;
+}
+
+.botonSecciones{
+	cursor: pointer;
+	width: 136px;
+	height: 41px;
+	left: 30px;
+	top: 274px;
+	background-color: #0F4A81;
+	border-radius: 10px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 4px 0px;
+	color: black;
+	font-size: 20px;
+	transition: all 0.4s ease;
+
+}
+
+
+.card{
+	cursor: pointer;
+	width: 153px;
+	height: auto;
+
+	background-color: #75BEDA !important;
+	border-radius: 15px !important;
+	border: 1px solid black !important;
+
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.card-img-top{
+
+	width: 114.93px;
+	height: 95.25px;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+
+.card-body{
+	padding: 10px !important;
+	font-size: 12px;
+}
+
+.modal-content{
+width: 306px;
+height: auto;
+
+background-color: #0F4A81 !important;
+border: 3px solid #000000 !important;
+box-sizing: border-box;
+border-radius: 15px;
+}
+
+.modal-title{
+	color: white !important;
+
+}
+
+.btn-warning{
+	margin-left: auto !important;
+}
+.w{
+	color: white !important;
+	font-weight: normal !important;
+}
+
+
+.producto{
+
+	background-color:  #75BEDA !important;
+	color: black !important;
+	height: auto;
+
+}
+
+.btn-secondary{
+	background-color: #0F4A81 !important;
+	border-radius: 12px;
+}
+
+#cuerpoPopularesyEmpresas{
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#carritoFooter{
+	justify-content: space-around;
+}
