@@ -1,0 +1,215 @@
+body{
+
+	font-family: Roboto !important;
+	background-color:#0F4A81 !important;
+}
+
+#icono{
+	position: absolute;
+	left: 3vw;
+	height: 6vh;
+	filter: drop-shadow(5px 1px 10px black);
+	cursor: pointer;
+}
+
+#icono:hover{
+	filter: brightness(0.7);
+}
+
+.barraRoja{
+
+	display: flex;
+	background-color: #E75B5B ;
+	padding: 20px;
+	height: 11vh;
+	justify-content: center;
+
+}
+
+.tituloEmpresa{
+
+	position: relative;
+	align-content: center;
+	text-align: center;
+	cursor: pointer;
+
+	color: white;
+	font-family: Roboto !important;
+	font-style: normal !important;
+	font-weight: bold !important;
+	font-size: 35px !important;
+	filter: drop-shadow(5px 1px 10px black);
+	margin-bottom: 0px;
+}
+
+.tituloEmpresa:hover{
+	filter: brightness(0.7);
+}
+
+@media (max-width: 400px){
+
+	.tituloEmpresa{
+		left: 10vw;
+	}
+
+
+}
+
+.eslogan{
+	
+position: absolute;
+width: 320px;
+height: 107px;
+top: 150px;
+color: white;
+
+font-style: normal;
+font-weight: 300;
+font-size: 30px;
+line-height: 33px;
+display: flex;
+justify-content: center;
+
+
+}
+
+.burger{
+    position: absolute;
+    width: 202px;
+    height: 393px;
+    justify-content: center;
+    top: 216.96px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.floatingFood{
+
+    position: relative;
+    width: 591.42px;
+    height: 233.57px;
+	top: 189px;
+    left: -57px;
+    transform: rotate(-57deg);
+}
+
+.cuerpoAzul{
+	display: flex;
+	justify-content: center;
+	height: 89vh;
+}
+
+.registro{
+
+	font-family: Roboto !important;
+	font-weight: 400 !important;
+	font-size: 23px !important;
+    color: white !important;
+    position: absolute;
+    width: 214px;
+    height: 58px;
+    top: 637px;
+    background: #F45C5D !important;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px !important;
+
+}
+
+.registro:hover{
+	filter: brightness(0.7);
+}
+
+.iniciaSesion{
+	
+	font-family: Roboto !important;
+	font-weight: 400 !important;
+	font-size: 23px !important;
+    color: white !important;
+    position: absolute;
+    width: 214px;
+    height: 58px;
+    top: 724px;
+    background: #F45C5D !important;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    border-radius: 10px !important;
+
+}
+
+.iniciaSesion:hover{
+	filter: brightness(0.7);
+}
+
+
+
+.registroCuadro{
+
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	align-items: center;
+
+	width: 80vw !important;
+	height: 80vh !important;
+
+	background: #FFFFFF;
+	border: 2px solid #000000;
+	border-radius: 10px;
+
+
+}
+
+.tituloRegistro{
+
+	width: 209px;
+	height: 58px;
+
+	border: 2px solid #000000;
+	border-radius: 15px;
+	margin-top: 25px;
+
+}
+
+p {
+
+	margin-top: 10px !important;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+	display: flex;
+	justify-content: center;
+
+
+
+}
+
+.input{
+	width: 242px;
+	height: 43px;
+	left: 67px;
+	top: 287px;
+
+	background: #C4C4C4;
+	border-radius: 10px;
+	border:0px;
+}
+
+.tipoUsuario{
+	color: white !important;
+	display: flex;
+	justify-content: center;
+	width: 242px;
+	height: 43px;
+	background: #0F4A81;
+	border-radius: 10px;
+}
+
+.boton{
+	color: white !important;
+	background-color:#75BEDA !important;
+
+}
+
+.boton:hover{
+	filter: brightness(0.7);
+}
