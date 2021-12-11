@@ -1,0 +1,127 @@
+body{
+	font-family: Roboto;
+	background-color: grey;
+}
+
+
+.barraRoja{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+	padding: 20px;
+	width: 100vw;
+	height: 13vh;
+	background-color: #E75B5B;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+
+}
+
+#icono{
+	margin-left: 2vw;
+	height: 6vh;
+	filter: drop-shadow(0px 5px 10px black);
+	cursor: pointer;
+}
+#icono:hover{
+
+filter: brightness(1.2);
+}
+
+#tituloEmpresa{
+
+	font-weight: 500;
+	filter: drop-shadow(5px 1px 10px black);
+	cursor: pointer;
+	color: white;
+}
+#tituloEmpresa:hover{
+
+filter: brightness(1.5);
+}
+
+.barraAzul{
+
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+	min-height: 87vh;
+	background-color: grey;
+
+
+
+}
+
+
+.seccion{
+
+	border-radius: 10px;
+	margin: 20px 10px;
+	padding: 20px;
+	text-align: center;
+	width: 200px;
+	height: 200px;
+	background-color: #0F4A81;
+	cursor: pointer;
+	color: white;
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 25px;
+
+}
+
+.seccion:hover{
+
+filter: brightness(0.8);
+}
+
+p{
+	padding: 35% 0%;
+	border: 2px solid white;
+	border-radius: 10px;
+	height: 100%;
+	text-align: center;
+}
+
+
+.btn-primary{
+	background-color: #0F4A81;
+	border: 0px;
+}
+
+.btn-secondary{
+	background-color:  #E75B5B;
+	border: 0px;
+}
+
+.btn-secondary:hover{
+    color: #fff;
+    background-color: #a31f1f;
+    border: 0px;
+}
+
+.modal-title{
+	color: black;
+	font-family: Roboto;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.modal-body{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+h6{
+	margin: 10px;
+}
